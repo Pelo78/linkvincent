@@ -1,0 +1,93 @@
+/* App.css */
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  flex-direction: column;
+  background: #12c2e9;
+  background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+
+.picture {
+  width: 60%;
+  text-align: center;
+}
+
+.picture img {
+  margin-top: 10%;
+  width: 15%;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Poppins";
+  margin-top: 20px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+  font-family: "Poppins";
+  max-width: 450px;
+  margin-top: 10px;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  background: black;
+  padding: 5%;
+  width: 90%;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.github-icon {
+  margin-left: auto; /* Aligner à droite */
+}
+
+.github p {
+  margin: 0;
+  text-align: center;
+  font-size: large;
+}
+
+.lucide-github {
+  margin-left: 5px;
+}
+
+.copyright {
+  margin-top: 6%;
+  text-align: center;
+  color: black;
+}
+
+@media only screen and (max-width: 764px) {
+  .copyright {
+    margin-top: 50%;
+  }
+  .picture img {
+    margin-top: 50%;
+    width: 45%;
+  }
+  .Software p {
+    width: 400px;
+  }
+  .github {
+    width: 80%;
+  }
+}
